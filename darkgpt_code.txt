@@ -1,0 +1,20 @@
+future_room_hack/
+│
+├── **core/**                  # Núcleo do framework
+│   ├── network_sniffer.py     # Sniffing e MITM
+│   ├── credential_cracker.py  # Brute-force e cracking
+│   ├── firmware_exploit.py    # Análise de firmware
+│   └── ai_prompt_injection.py # Exploit de IA
+│
+├── **tools/**                 # Ferramentas auxiliares
+│   ├── deepfake_simulator.py  # Simulação de spoofing facial
+│   ├── hash_cracker.py        # Cracking de hashes
+│   └── payloads/              # Payloads customizados
+│
+├── **configs/**               # Configurações
+│   ├── targets.json           # Alvos a atacar
+│   └── wordlists/             # Dicionários de senhas
+│
+├── **logs/**                  # Logs de ataque
+│
+└── **main.py**                # Script principal (executa tudo)
